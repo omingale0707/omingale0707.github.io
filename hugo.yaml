@@ -26,3 +26,7 @@ params:
       url: "https://www.linkedin.com/in/omi7/"
     - name: "email"
       url: "mailto:omingale0707@gmail.com"
+
+caches:
+  images:
+    dir: :cacheDir/images
