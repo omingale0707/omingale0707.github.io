@@ -8,8 +8,12 @@ params:
   disableThemeToggle: false
 
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...  
+    Title: Hello!👋
+    Content: |
+      Welcome to my personal website.
+      I'm a data engineer living in Mumbai, India. I have recently started this personal blog and will try to write more here.
+
+      Here you can find all my socials and all things related to data.
 
   socialIcons:
     - name: "github"
