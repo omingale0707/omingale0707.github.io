@@ -1,0 +1,31 @@
+baseURL: www.omingale.in
+languageCode: en-us
+title: Om Ingale
+theme: ["PaperMod"]
+
+params:
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...  
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/omingale0707"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/omi7/"
+    - name: "email"
+      url: "mailto:omingale0707@gmail.com"
+
+menus:
+  main:
+  - identifier: about
+    name: About Me
+    pageRef: about/
+    weight: 1
+
+caches:
+  images:
+    dir: :cacheDir/images
