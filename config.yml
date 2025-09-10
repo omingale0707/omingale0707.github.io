@@ -1,0 +1,36 @@
+baseURL: www.omingale.in
+languageCode: en-us
+title: omingale.in
+theme: ["PaperMod"]
+
+copyright: © 2025 Om Ingale
+params:
+  defaultTheme: auto
+  disableThemeToggle: False
+
+  homeInfoParams:
+    Title: 👋Hello!
+    Content: |
+      Welcome to my blog!
+      I write about all things related to data and software.
+
+
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/omingale0707"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/omi7/"
+    - name: "email"
+      url: "mailto:omingale0707@gmail.com"
+
+menus:
+  main:
+  - identifier: about
+    name: About Me
+    pageRef: about/
+    weight: 1
+  - identifier: something
+    name: Home
+    pageRef: theme_demo_markdown/
+    weight: 1
