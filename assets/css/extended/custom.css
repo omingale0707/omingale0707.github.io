@@ -5,25 +5,45 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 */
 
 .dark{
-    --theme: rgb(0, 0, 0);            
+    --theme: rgb(9, 10, 12);            
     --entry: rgb(10, 20, 12);         
     --primary: rgb(34, 197, 94);      
     --secondary: rgb(224, 240, 230);  
     --tertiary: rgb(255, 255, 255);   
-    --content: rgb(255, 255, 255);    
+    --content: rgb(196, 196, 197);    
     --code-block-bg: rgb(46, 46, 51); 
     --code-bg: rgb(20, 83, 45);       
     --border: rgb(255, 255, 255);  
+    --post-content: #74b9ff;
 }
 
 :root {
-    --theme: rgb(255, 255, 255);    
+    --theme: #FFFFF0;    
     --entry: rgb(255, 255, 255);    
-    --primary: rgb(20, 83, 45);     
+    --primary: #436436;     
     --secondary: rgb(22, 24, 22);   
     --tertiary: rgb(36, 41, 38);    
-    --content: rgb(0, 0, 0);        
+    --content: rgb(9, 10, 12);        
     --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(203, 245, 206);  
+    --code-bg: #98e984;  
     --border: rgb(187, 247, 208);   
+    --post-content: #0946d7;
+}
+
+.list {
+    background: var(--theme);
+}
+
+body {
+    font-family: atkinson hyperlegible,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    image-rendering: -webkit-optimize-contrast
+}
+
+.post-content a {
+    color: var(--post-content);
 }
