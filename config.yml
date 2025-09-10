@@ -30,7 +30,3 @@ menus:
     name: About Me
     pageRef: about/
     weight: 1
-  - identifier: something
-    name: Home
-    pageRef: theme_demo_markdown/
-    weight: 1
